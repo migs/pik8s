@@ -1,0 +1,6 @@
+---
+- name: Install SSH Keys from SSH agent
+  authorized_key:
+    user: pirate # TODO: Make variable
+    state: present
+    key: "{{lookup('pipe','ssh-add -L')}}"

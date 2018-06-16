@@ -1,0 +1,7 @@
+pi2b01  ansible_host=192.168.5.200
+pi3b01  ansible_host=192.168.5.201
+pi3b02  ansible_host=192.168.5.202
+pi3b03  ansible_host=192.168.5.203
+
+[master]
+pi2b01

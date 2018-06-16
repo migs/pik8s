@@ -1,5 +1,4 @@
-#ansible-configured
-
+---
 - hosts: all
   roles:
     - ssh
